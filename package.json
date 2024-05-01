@@ -3,9 +3,11 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "dev:watch": "next dev --watch",
     "start": "next start"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
