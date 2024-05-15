@@ -47,6 +47,7 @@ export default function Contact() {
   // Render the form
   return (
     <>
+    <Navbar />
       <section className="page-section" id="contact">
         <div className="container">
           <div className="text-center">

@@ -5,10 +5,10 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div className="container">
-        <Link href="#page-top">
-          <a className="navbar-brand">
-            <img src="/src/assets/img/navbar-logo.svg" alt="..." />
-          </a>
+        <Link href="/" className="navbar-brand">
+
+          <img src="/src/assets/img/navbar-logo.svg" alt="..." />
+
         </Link>
         <button
           className="navbar-toggler"
@@ -25,28 +25,28 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
             <li className="nav-item">
-              <Link href="#services">
-                <a className="nav-link">Services</a>
+              <Link href="/#services" className="nav-link">
+                Services
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="#portfolio">
-                <a className="nav-link">Portfolio</a>
+              <Link href="/#portfolio" className="nav-link">
+                Portfolio
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="#about">
-                <a className="nav-link">About</a>
+              <Link href="/#about" className="nav-link">
+                About
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="#team">
-                <a className="nav-link">Team</a>
+              <Link href="/#team" className="nav-link">
+                Team
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="#contact">
-                <a className="nav-link">Contact</a>
+              <Link href="/contact" className="nav-link">
+                Booking
               </Link>
             </li>
           </ul>
