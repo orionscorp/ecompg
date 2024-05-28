@@ -1,4 +1,6 @@
 import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+import Products from '../components/products';
 // Import the useEffect and useState hooks from React
 import { useEffect, useState } from 'react';
 
@@ -117,6 +119,8 @@ export default function Contact() {
           </form>
         </div>
       </section>
+      {/* <Products /> */}
+      <Footer />
     </>
   );
 }
